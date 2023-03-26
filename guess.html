@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" type="image/x-icon" href="./assets/enig.ico">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Guess the number</title>
+</head>
+<body>
+  <div>
+    <a href="./index.html"><button>
+      Back
+    </button>
+  </a>
+  </div>  
+
+    <section id="game">
+        <h2>Number Guessing Game</h2>
+        <p>I'm thinking of a number between 1 and 5. Can you guess it?</p>
+        <form>
+          <label for="guess">Your guess:</label>
+          <input type="number" id="guess" min="1" max="5">
+
+          <button type="button" id="submit">Submit</button>
+        </form>
+        <p id="result"></p>
+      </section>
+      
+    
+</body>
+<script src="./js/guess.js"></script>
+</html>
